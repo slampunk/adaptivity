@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "express": "latest",
+        "body-parser": "latest",
+        "redis": "latest",
+        "mysql": "latest",
+        "socket.io": "latest"
+    }
+}

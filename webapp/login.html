@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <input type="radio" name="view" value="login" id="loginView" class="hiddenCheck" checked />
+  <input type="radio" name="view" value="forgot" id="forgotView" class="hiddenCheck" checked />
+  <input type="radio" name="view" value="register" id="registerView" class="hiddenCheck" checked />
+  <main>
+    <form method="post" action="/performlogin">
+      <input name="username" />
+      <input type="password" name="password" />
+      <button>Login</button>
+    </form>
+    <form method="post" action="/forgotpass">
+      <input name="email" />
+      <button>Send Password Reset</button>
+    </form>
+  </main>
+</body>
+</html>
