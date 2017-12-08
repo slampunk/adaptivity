@@ -14,7 +14,7 @@ const Redis = require('redis');
 const redis = Redis.createClient();
 
 const config = {
-  port: 31566,
+  port: 34564,
   rootPath: {root: path.resolve(__dirname + '/../webapp/') + '/'}
 };
 
